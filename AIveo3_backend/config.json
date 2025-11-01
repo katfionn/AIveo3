@@ -1,0 +1,7 @@
+{
+  "GOOGLE_API_KEY": "replaceme",
+  "SAVE_VIDEO_PATH": "./videos",
+  "SAVE_IMAGE_PATH": "./images",
+  "NEGATIVE_PROMPT": "",
+  "SLEEP_TIME": 10
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance for video generator
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/AIveo3
+ExecStart=/usr/bin/python3 /usr/local/bin/gunicorn --workers 4 --bind 0.0.0.0:5000 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

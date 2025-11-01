@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 视频生成</title>
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="data:image/png;base64,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">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0D645B',
+                        secondary: '#1A1A1A'
+                    },
+                    zIndex: {
+                        '100': '100'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            min-height: 1024px;
+            background-color: #121212;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('https://image.pollinations.ai/prompt/A%20girl%20in%20Times%20Square,%20New%20York,%20surrounded%20by%20bustling%20crowds%20and%20luminous%20digital%20displays,%20with%20hyper-saturated%20neon%20lights%20illuminating%20the%20night%20scene.%20The%20background%20is%20blurred%20with%20soft%20focus,%20captured%20using%20a%20wide-angle%20lens%20in%20a%20dynamic%20tracking%20shot,%20creating%20a%20vivid%20and%20energetic%20atmosphere.');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            opacity: 1;
+            filter: blur(18px);
+            z-index: -1;
+        }
+
+        .glassmorphism {
+            background: rgba(26, 26, 26, 0.5);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .tooltip {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .tooltip:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 4px 8px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            z-index: 20;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 8px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(13, 100, 91, 0.5);
+            border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(13, 100, 91, 0.8);
+        }
+        
+        .ellipsis-text {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        
+        input[type="file"] {
+            display: none;
+        }
+
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 5px rgba(13, 100, 91, 0.5);
+            }
+
+            50% {
+                box-shadow: 0 0 20px rgba(13, 100, 91, 0.8);
+            }
+
+            100% {
+                box-shadow: 0 0 5px rgba(13, 100, 91, 0.5);
+            }
+        }
+
+        .glow-effect {
+            animation: glow 2s infinite;
+        }
+
+        #toast-container {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+        .toast {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .toast.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body class="text-gray-200">
+    <div class="max-w-[1440px] mx-auto flex flex-col h-screen">
+        <header class="flex items-center justify-between px-6 py-4 glassmorphism border-b border-gray-700">
+            <div class="text-2xl font-['Pacifico'] text-white font-bold">VEO 3</div>
+            <button id="new-conversation-btn" class="flex items-center px-4 py-2 bg-primary text-white !rounded-button hover:bg-opacity-90 whitespace-nowrap">
+                <i class="fas fa-plus mr-2 w-4 h-4 flex justify-center items-center"></i>
+                新对话
+            </button>
+        </header>
+        <main id="history-container" class="flex-1 overflow-auto p-6 pb-48 scrollbar-hide">
+            <div id="history-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                </div>
+        </main>
+        <div class="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-3xl px-6">
+            <div class="flex items-end gap-4">
+                <div class="flex-1 glassmorphism rounded-lg p-4 flex flex-col">
+                    <div class="min-h-[100px] mb-4 flex-1">
+                        <textarea id="prompt-input" class="min-h-[100px] w-full h-full bg-transparent border-none outline-none resize-none text-sm custom-scrollbar" placeholder="请输入视频生成提示词..."></textarea>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <label id="image-upload-label" class="cursor-pointer">
+                                <input id="image-upload-input" type="file" accept="image/*">
+                                <i class="fas fa-image text-gray-400 hover:text-primary w-6 h-6 flex justify-center items-center"></i>
+                            </label>
+                            <div id="image-preview-container" class="hidden relative">
+                                <img id="image-preview" src="" alt="Image Preview" class="h-10 w-auto rounded-md">
+                                <i id="image-delete-btn" class="fas fa-times-circle absolute -top-2 -right-2 text-red-500 cursor-pointer text-sm"></i>
+                            </div>
+                        </div>
+                        <button id="send-btn" class="px-6 py-2 bg-primary text-white !rounded-button hover:bg-opacity-90 whitespace-nowrap flex items-center justify-center">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            发送
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="toast-container"></div>
+
+<script>
+    const API_BASE_URL = '/api';
+
+    const historyGrid = document.getElementById('history-grid');
+    const promptInput = document.getElementById('prompt-input');
+    const sendBtn = document.getElementById('send-btn');
+    const imageUploadInput = document.getElementById('image-upload-input');
+    const imageUploadLabel = document.getElementById('image-upload-label');
+    const imagePreviewContainer = document.getElementById('image-preview-container');
+    const imagePreview = document.getElementById('image-preview');
+    const imageDeleteBtn = document.getElementById('image-delete-btn');
+
+    // 状态映射
+    const statusColors = {
+        '生成中': 'bg-yellow-500',
+        '生成失败': 'bg-red-500',
+        '文生视频': 'bg-blue-500',
+        '图生视频': 'bg-green-500',
+    };
+
+    function copyToClipboard(text, message) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast(message);
+            }).catch(err => {
+                showToast('复制失败，请手动复制');
+                console.error('复制失败: ', err);
+            });
+        } else {
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = text;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            try {
+                document.execCommand('copy');
+                showToast(message);
+            } catch (err) {
+                showToast('复制失败，请手动复制');
+                console.error('复制失败: ', err);
+            }
+            document.body.removeChild(tempTextArea);
+        }
+    }
+
+    function showToast(message) {
+        const toastContainer = document.getElementById('toast-container');
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        toastContainer.appendChild(toast);
+
+        setTimeout(() => {
+            toast.classList.add('show');
+        }, 10);
+
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => {
+                toast.remove();
+            }, 500);
+        }, 2000);
+    }
+
+    function formatDuration(duration) {
+        const match = duration.toString().match(/(\d+\.?\d*)/);
+        let seconds = 0;
+        if (match) {
+            seconds = parseFloat(match[1]);
+        }
+        if (isNaN(seconds) || seconds < 0) {
+            return '0秒';
+        }
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = Math.round(seconds % 60);
+        return `${minutes}分${remainingSeconds}秒`;
+    }
+    
+    function updateTaskCard(cardElement, task) {
+        if (!cardElement) return;
+
+        const statusElement = cardElement.querySelector('.status-tag');
+        const durationElement = cardElement.querySelector('.duration-text');
+        const videoContainer = cardElement.querySelector('.video-container');
+        const retryButton = cardElement.querySelector('.retry-btn');
+        const downloadButton = cardElement.querySelector('.download-btn');
+        const taskIdElement = cardElement.querySelector('.copy-task-id');
+        const startTimeElement = cardElement.querySelector('.start-time-text');
+        const promptTextElement = cardElement.querySelector('.ellipsis-text');
+        
+        const isProcessing = task.status === '生成中';
+        const isFailed = task.status === '生成失败';
+        const isSuccess = !isProcessing && !isFailed;
+        
+        statusElement.className = `px-2 py-1 text-xs ${statusColors[task.status] || 'bg-gray-500'} text-white rounded status-tag`;
+        statusElement.textContent = task.status;
+        durationElement.textContent = `用时：${formatDuration(task.duration || '0s')}`;
+        
+        if (task.task_id) {
+             taskIdElement.dataset.id = task.task_id;
+             startTimeElement.textContent = new Date(task.start_time).toLocaleString();
+        }
+
+        if (promptTextElement) {
+            promptTextElement.textContent = task.prompt;
+            promptTextElement.dataset.tooltip = task.prompt;
+        }
+
+        videoContainer.innerHTML = '';
+        let videoPlayerHtml = '';
+        if (isProcessing) {
+            videoPlayerHtml = `
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="animate-spin rounded-full h-12 w-12 border-4 border-primary border-t-transparent"></div>
+                </div>
+            `;
+        } else if (isFailed) {
+            videoPlayerHtml = `
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-gray-400">
+                    <i class="fas fa-exclamation-circle text-2xl mb-2"></i>
+                    <p class="text-sm">视频生成失败，请重试</p>
+                    <p class="text-xs text-red-400 mt-2">${task.error || ''}</p>
+                </div>
+            `;
+        } else if (isSuccess) {
+             const videoUrl = `${API_BASE_URL}${task.video_url}`;
+             videoPlayerHtml = `
+                <video controls class="w-full h-full object-cover">
+                    <source src="${videoUrl}" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            `;
+        }
+        videoContainer.innerHTML = videoPlayerHtml;
+
+        if (retryButton) {
+            retryButton.style.display = isFailed ? 'inline-block' : 'none';
+        }
+        if (downloadButton) {
+            downloadButton.style.opacity = isSuccess ? '1' : '0.5';
+            downloadButton.style.cursor = isSuccess ? 'pointer' : 'not-allowed';
+            downloadButton.href = isSuccess ? `${API_BASE_URL}${task.video_url}` : '#';
+        }
+    }
+
+    function renderTaskCard(task) {
+        const card = document.createElement('div');
+        card.className = 'glassmorphism p-6 rounded-lg border border-gray-700 hover:glow-effect transition-all duration-300';
+        card.setAttribute('data-task-id', task.task_id);
+        
+        const isProcessing = task.status === '生成中';
+        const isFailed = task.status === '生成失败';
+        const isSuccess = !isProcessing && !isFailed;
+
+        let videoPlayerHtml = '';
+        if (isProcessing) {
+            videoPlayerHtml = `
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="animate-spin rounded-full h-12 w-12 border-4 border-primary border-t-transparent"></div>
+                </div>
+            `;
+        } else if (isFailed) {
+            videoPlayerHtml = `
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-gray-400">
+                    <i class="fas fa-exclamation-circle text-2xl mb-2"></i>
+                    <p class="text-sm">视频生成失败，请重试</p>
+                    <p class="text-xs text-red-400 mt-2">${task.error || ''}</p>
+                </div>
+            `;
+        } else if (isSuccess) {
+             const videoUrl = `${API_BASE_URL}${task.video_url}`;
+             videoPlayerHtml = `
+                <video controls class="w-full h-full object-cover">
+                    <source src="${videoUrl}" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            `;
+        }
+
+        const formattedDuration = formatDuration(task.duration || '0s');
+
+        let cardContent = `
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                    <span class="text-sm text-gray-400 start-time-text">${task.start_time || '未知时间'}</span>
+                    <button class="tooltip" data-tooltip="复制任务ID">
+                        <i class="fas fa-copy text-gray-400 hover:text-primary w-5 h-5 flex justify-center items-center copy-task-id" data-id="${task.task_id || ''}"></i>
+                    </button>
+                </div>
+                <div class="flex items-center gap-3">
+                     <span class="px-2 py-1 text-xs ${statusColors[task.status] || 'bg-gray-500'} text-white rounded status-tag">${task.status}</span>
+                     <button class="px-3 py-1 bg-primary text-white text-xs rounded-button hover:bg-opacity-80 retry-btn" data-prompt="${task.prompt}" style="display: ${isFailed ? 'inline-block' : 'none'};">
+                        重试
+                    </button>
+                    <span class="text-sm text-gray-400 duration-text">用时：${formattedDuration}</span>
+                </div>
+            </div>
+            <div class="aspect-video bg-gray-800 rounded-lg overflow-hidden relative video-container">
+                ${videoPlayerHtml}
+            </div>
+            <div class="flex items-center justify-between mt-4">
+                <p class="text-sm text-gray-300 ellipsis-text tooltip" data-tooltip="${task.prompt}">${task.prompt}</p>
+                <div class="flex gap-3">
+                    <button class="tooltip" data-tooltip="复制提示词">
+                        <i class="fas fa-copy text-gray-400 hover:text-primary w-5 h-5 flex justify-center items-center copy-prompt" data-prompt="${task.prompt}"></i>
+                    </button>
+                    <a href="${isSuccess ? `${API_BASE_URL}${task.video_url}` : '#'}" download="${task.task_id}.mp4" class="tooltip download-btn" data-tooltip="下载视频" style="opacity: ${isSuccess ? '1' : '0.5'}; cursor: ${isSuccess ? 'pointer' : 'not-allowed'};">
+                        <i class="fas fa-download text-gray-400 hover:text-primary w-5 h-5 flex justify-center items-center"></i>
+                    </a>
+                </div>
+            </div>
+        `;
+        card.innerHTML = cardContent;
+        historyGrid.prepend(card);
+        return card;
+    }
+
+    async function loadHistory() {
+        try {
+            const response = await fetch(`${API_BASE_URL}/history`);
+            const histories = await response.json();
+            
+            historyGrid.innerHTML = '';
+            histories.sort((b, a) => new Date(b.start_time) - new Date(a.start_time));
+            histories.forEach(task => renderTaskCard(task));
+
+            document.querySelectorAll('.copy-task-id').forEach(btn => {
+                btn.addEventListener('click', () => copyToClipboard(btn.dataset.id, '任务ID已复制!'));
+            });
+            document.querySelectorAll('.copy-prompt').forEach(btn => {
+                btn.addEventListener('click', () => copyToClipboard(btn.dataset.prompt, '提示词已复制!'));
+            });
+            document.querySelectorAll('.retry-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    promptInput.value = btn.dataset.prompt;
+                    showToast('提示词已填充!');
+                });
+            });
+        } catch (error) {
+            console.error('加载历史记录失败:', error);
+        }
+    }
+
+    async function pollStatus(taskId) {
+        let startTime = Date.now();
+        const cardElement = document.querySelector(`[data-task-id="${taskId}"]`);
+        
+        if (cardElement && cardElement.querySelector('.start-time-text')) {
+             const originalStartTimeText = cardElement.querySelector('.start-time-text').textContent;
+             const parsedStartTime = new Date(originalStartTimeText);
+             if (!isNaN(parsedStartTime.getTime())) {
+                startTime = parsedStartTime.getTime();
+             }
+        }
+
+        const interval = setInterval(async () => {
+            try {
+                const response = await fetch(`${API_BASE_URL}/status/${taskId}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const responseText = await response.text();
+                let data;
+                try {
+                    data = JSON.parse(responseText);
+                } catch (e) {
+                    console.error('JSON解析失败:', e, '原始响应文本:', responseText);
+                    throw new Error('后端返回无效JSON数据');
+                }
+
+                if (cardElement) {
+                    const currentTime = Date.now();
+                    const duration = (currentTime - startTime) / 1000;
+                    const updatedTask = { ...data, prompt: data.prompt, duration: duration, start_time: startTime };
+                    updateTaskCard(cardElement, updatedTask);
+                }
+                
+                if (data.status !== '生成中') {
+                    clearInterval(interval);
+                    loadHistory();
+                }
+            } catch (error) {
+                console.error('轮询失败:', error);
+                clearInterval(interval);
+                updateTaskCard(document.querySelector(`[data-task-id="${taskId}"]`), { status: '生成失败', prompt: '未知错误', error: error.message });
+                showToast(`视频生成失败: ${error.message}`);
+            }
+        }, 3000);
+    }
+    
+    // 发送请求，现在我们使用FormData来上传图片
+    sendBtn.addEventListener('click', async () => {
+        const prompt = promptInput.value;
+        if (!prompt) {
+            showToast('请输入提示词!');
+            return;
+        }
+
+        const file = imageUploadInput.files[0];
+        let imageUrl = null;
+
+        sendBtn.disabled = true;
+        sendBtn.innerHTML = `<i class="fas fa-spinner fa-spin mr-2"></i>发送中...`;
+
+        const tempTaskId = `temp-${Date.now()}`;
+        const cardElement = renderTaskCard({
+            task_id: tempTaskId,
+            start_time: new Date().toLocaleString(),
+            status: '生成中',
+            prompt: prompt,
+            duration: '0s',
+            mode: file ? '图生视频' : '文生视频'
+        });
+
+        try {
+            // **第一步：如果选择了图片，先上传图片**
+            if (file) {
+                const formData = new FormData();
+                formData.append('image', file);
+                
+                const uploadResponse = await fetch(`${API_BASE_URL}/upload_image`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const uploadData = await uploadResponse.json();
+                if (uploadData.error) {
+                    throw new Error(uploadData.error);
+                }
+                imageUrl = uploadData.image_url;
+                showToast('图片上传成功！');
+            }
+
+            // **第二步：提交生成任务，这次使用 imageUrl 而不是 Base64**
+            const payload = { prompt: prompt };
+            if (imageUrl) {
+                payload.image_url = imageUrl;
+            }
+            
+            const generateResponse = await fetch(`${API_BASE_URL}/generate`, {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(payload),
+            });
+
+            const responseText = await generateResponse.text();
+            let data;
+            
+            if (!generateResponse.ok) {
+                 try {
+                    data = JSON.parse(responseText);
+                    const errorMessage = data.error || `HTTP error! status: ${generateResponse.status}.`;
+                    throw new Error(errorMessage);
+                 } catch (e) {
+                    throw new Error(`HTTP error! status: ${generateResponse.status}. Response body: ${responseText}`);
+                 }
+            }
+            
+            try {
+                data = JSON.parse(responseText);
+            } catch (e) {
+                console.error('JSON解析失败:', e, '原始响应文本:', responseText);
+                throw new Error('后端返回无效JSON数据');
+            }
+
+            if (data.status === '任务已提交' && data.task_id) {
+                showToast('任务已提交，开始生成...');
+                cardElement.setAttribute('data-task-id', data.task_id);
+                pollStatus(data.task_id);
+            } else {
+                showToast(`任务提交失败: ${data.error || '后端返回无效数据'}`);
+                updateTaskCard(cardElement, { status: '生成失败', prompt: prompt, error: data.error || '后端返回无效数据' });
+            }
+        } catch (error) {
+            showToast(`发送请求失败: ${error.message}`);
+            console.error('发送请求失败:', error);
+            updateTaskCard(cardElement, { status: '生成失败', prompt: prompt, error: error.message });
+        } finally {
+            sendBtn.disabled = false;
+            sendBtn.innerHTML = `<i class="fas fa-paper-plane mr-2"></i>发送`;
+            promptInput.value = '';
+            imageUploadInput.value = '';
+            imageUploadLabel.classList.remove('hidden');
+            imagePreviewContainer.classList.add('hidden');
+        }
+    });
+
+    // 图片上传和预览
+    imageUploadInput.addEventListener('change', () => {
+        const file = imageUploadInput.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                imagePreview.src = e.target.result;
+                imageUploadLabel.classList.add('hidden');
+                imagePreviewContainer.classList.remove('hidden');
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    imageDeleteBtn.addEventListener('click', () => {
+        imageUploadInput.value = '';
+        imageUploadLabel.classList.remove('hidden');
+        imagePreviewContainer.classList.add('hidden');
+    });
+
+    // 头部“新对话”按钮，功能待定
+    document.getElementById('new-conversation-btn').addEventListener('click', () => {
+        showToast('该功能正在开发中...');
+    });
+
+    document.addEventListener('DOMContentLoaded', loadHistory);
+</script>
+</body>
+</html>

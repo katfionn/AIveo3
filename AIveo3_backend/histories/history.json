@@ -1,0 +1,492 @@
+[
+  {
+    "task_id": "170673cc-9a2c-4ff0-9f71-e79569c21423",
+    "start_time": "2025-10-09 03:24:41",
+    "prompt": "8K， HDR，超高清分辨率，现实主义风格，一男一女穿着蓝色时尚服装在T台走秀，画面中两人刚从T台中走出摆一个姿势并走回去，四肢与五官清晰可见，动作自然有个性，运镜慢慢从低往上扬30度到水平角度",
+    "status": "图生视频",
+    "video_url": "/videos/24f583f4-b330-4e09-8876-c5ed7fdbb197.mp4",
+    "image_url": "/images/9aa5e355-af25-4cfe-ad94-6363f26e9630.png",
+    "duration": "125.25s",
+    "mode": "图生视频"
+  },
+  {
+    "task_id": "94bf447b-d7ea-467f-ab53-dd872b4d09eb",
+    "start_time": "2025-08-26 03:02:36",
+    "prompt": "中国民间奇谈故事镜头：火焰燃烧照片，火光中浮现村落轮廓，灰烬自动排列成字",
+    "status": "文生视频",
+    "video_url": "/videos/6de1812b-e80c-4741-81cd-1c0477f7ef3d.mp4",
+    "image_url": null,
+    "duration": "81.12s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "a0d79e36-1ce7-4ca5-bd74-1256f7b12ca5",
+    "start_time": "2025-08-26 03:02:18",
+    "prompt": "中国民间奇谈故事镜头：晨光中，母亲掀开枕头，石片刻着孩子名字，边缘沾有泥土。",
+    "status": "文生视频",
+    "video_url": "/videos/aac26ced-8777-49a0-bce4-304abbbd1de4.mp4",
+    "image_url": null,
+    "duration": "79.81s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "2b12bf08-ae1c-4e02-a1ee-a0fd524adcf2",
+    "start_time": "2025-08-26 03:01:54",
+    "prompt": "中国民间奇谈故事镜头：动态数据图：现实稳定性曲线暴跌，裂缝可视化为黑色丝线蔓延",
+    "status": "文生视频",
+    "video_url": "/videos/4dd6d504-ff9b-47bb-b185-5f0285645cde.mp4",
+    "image_url": null,
+    "duration": "78.45s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "82fb1c7d-0b8b-4c4c-9118-5b24db673557",
+    "start_time": "2025-08-26 02:59:59",
+    "prompt": "中国民间奇谈故事镜头：黑白影像：苏联科学家穿戴防护服，进入地下设施，背景有巨大线圈",
+    "status": "文生视频",
+    "video_url": "/videos/61943a05-73b0-493b-a2cd-1f6102cdbae2.mp4",
+    "image_url": null,
+    "duration": "81.33s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "be11cf66-1df0-436f-9454-eb084d596718",
+    "start_time": "2025-08-26 02:59:39",
+    "prompt": "中国民间奇谈故事镜头：会议室暗光，投影仪播放“云隐回响”档案，文件盖有“绝密”印章",
+    "status": "文生视频",
+    "video_url": "/videos/442abc71-7c2c-4ae3-8623-76dc6e765ed5.mp4",
+    "image_url": null,
+    "duration": "78.21s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "97fecf35-9970-4e42-be19-f171b8149162",
+    "start_time": "2025-08-26 02:59:19",
+    "prompt": "中国民间奇谈故事镜头：全球地图点亮37个红点，同步闪烁，手机弹出照片通知，音效刺耳",
+    "status": "文生视频",
+    "video_url": "/videos/b9946127-ac1c-4eab-b699-0f2b17c96586.mp4",
+    "image_url": null,
+    "duration": "75.36s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "8f412fb9-e9d8-49ef-9447-1e9ef4429696",
+    "start_time": "2025-08-25 01:59:30",
+    "prompt": "中国民间奇谈故事镜头：特写：村民眼睛无神，嘴角缓慢上扬，露出诡异微笑，背景寂静无声",
+    "status": "文生视频",
+    "video_url": "/videos/821f31b2-1e97-4cd0-913c-e300675c644f.mp4",
+    "image_url": null,
+    "duration": "77.89s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "e4f4bf68-29b6-4749-8ca1-c44604b76acb",
+    "start_time": "2025-08-25 01:59:02",
+    "prompt": "中国民间奇谈故事镜头：慢镜头：十几个村民站成一排，身穿旧式粗布衣，面无表情，直视镜头",
+    "status": "文生视频",
+    "video_url": "/videos/a0fe2ebe-5f31-437a-800f-5f1cd5f7e057.mp4",
+    "image_url": null,
+    "duration": "79.49s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "e22fcab8-3b70-4e06-856f-f8b6b4de5713",
+    "start_time": "2025-08-25 01:58:27",
+    "prompt": "中国民间奇谈故事镜头：监控风格灰白画面：学者帐篷空无一人，日记本摊开在地，风翻页",
+    "status": "文生视频",
+    "video_url": "/videos/6d8211e3-3aeb-4d4c-a0e2-490060d11ee9.mp4",
+    "image_url": null,
+    "duration": "79.70s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "494abd47-2fbe-48f4-b907-767889c20c86",
+    "start_time": "2025-08-25 01:58:14",
+    "prompt": "中国民间奇谈故事镜头：广角镜头：山雾翻滚，荒坡突然映出完整村落轮廓，灯火通明，人影晃动，字幕：“山雾弥漫，镜头扫过荒芜山坡，却映出灯火通明的村落。”\n",
+    "status": "文生视频",
+    "video_url": "/videos/69085a23-02a3-4208-bef9-2182a2e96945.mp4",
+    "image_url": null,
+    "duration": "73.97s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "1c20cfe5-11c9-4365-83d4-0de75df46d58",
+    "start_time": "2025-08-24 23:03:57",
+    "prompt": "中国民间奇谈故事镜头：手电光束扫过村口枯槐，铁锹插入泥土，金属碰撞声，铁盒缓缓拉出。",
+    "status": "文生视频",
+    "video_url": "/videos/3f4280d2-ddbd-43ac-bed6-082e2c576ea6.mp4",
+    "image_url": null,
+    "duration": "102.92s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "ba549731-cccd-43ae-9758-a67df7cf4fff",
+    "start_time": "2025-08-24 23:03:33",
+    "prompt": "中国民间奇谈故事镜头：书桌特写：泛黄信封，火漆封印裂开，信纸字迹潦草：“去老槐树下挖。”",
+    "status": "文生视频",
+    "video_url": "/videos/cb598ddd-5c98-4c65-91ff-e9361d90734c.mp4",
+    "image_url": null,
+    "duration": "79.00s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "27a7357d-ff53-4a0a-a838-b8d632f3549d",
+    "start_time": "2025-08-24 23:03:11",
+    "prompt": "中国民间奇谈故事镜头：特写：倒扣铜钟，雨水顺钟身滑落，镜头推近，钟内刻字“入雾者忘，归乡者替”泛着幽绿铜锈。",
+    "status": "文生视频",
+    "video_url": "/videos/77038575-70b4-49ff-8b05-202243a8ccd9.mp4",
+    "image_url": null,
+    "duration": "75.97s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "05c18341-1b2f-453d-8b45-6e1e72f7770c",
+    "start_time": "2025-08-24 23:02:40",
+    "prompt": "中国民间奇谈故事镜头：空镜头：村中广场空无一人，石磨半转，锅中饭菜尚温，狗绳垂地晃动。\n",
+    "status": "文生视频",
+    "video_url": "/videos/bf527bf2-318a-4cdc-818f-ad16d8cf314b.mp4",
+    "image_url": null,
+    "duration": "103.23s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "32ec3072-39f9-4b9f-bada-15f6e810a926",
+    "start_time": "2025-08-24 23:02:21",
+    "prompt": "中国民间奇谈故事镜头：航拍镜头穿越厚重黄雾，俯视山谷中的小村，木屋错落，炊烟袅袅，突然雾气翻涌，村庄瞬间隐没。",
+    "status": "文生视频",
+    "video_url": "/videos/5445e475-c51d-4179-9d4c-ccddef704f95.mp4",
+    "image_url": null,
+    "duration": "78.11s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "0a6862bb-c8b5-45a3-95f6-7b7b4edd9552",
+    "start_time": "2025-08-19 23:22:30",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇 \n分镜3: 鲁智深怒目圆睁，一声怒吼，蒲扇大手紧紧抓住树干，腰腹发力，竟将杨柳树连根拔起，泥土飞溅\n",
+    "status": "文生视频",
+    "video_url": "/videos/4c040461-c2dd-4c8c-ab56-78acb72d97c0.mp4",
+    "image_url": null,
+    "duration": "79.40s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "8d41815e-c8fd-4fd5-abf3-95e08b59a845",
+    "start_time": "2025-08-19 22:44:16",
+    "prompt": "The script, based on the classic Chinese novel \"Water Margin,\" features a story about Lu Zhishen uprooting a weeping willow, showcasing his unbridled boldness and hatred of evil. Scene 3: Lu Zhishen's eyes widen with anger, and with a roar, he grips the trunk with his palm-leaf fan-like hands. With force, he pulls the willow tree upside down, sending dirt flying.",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "78.56s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "4efb5792-8026-497a-a6cf-98ea5fa3867c",
+    "start_time": "2025-08-19 22:41:42",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇 \n分镜3: 鲁智深怒目圆睁，一声怒吼，蒲扇大手紧紧抓住树干，腰腹发力，竟将杨柳树连根拔起，泥土飞溅\n",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "78.46s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "c3321721-61ce-4c5d-8efa-4271c718a43f",
+    "start_time": "2025-08-19 22:37:16",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇 \n分镜3:鲁智深怒目圆睁，一声怒吼，蒲扇大手紧紧抓住树干，腰腹发力，竟将杨柳树连根拔起，泥土飞溅。",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "80.50s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "a1521231-d4e2-4969-a28a-4100761223f4",
+    "start_time": "2025-08-19 22:32:07",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇 \n分镜3:鲁智深怒目圆睁，一声怒吼，蒲扇大手紧紧抓住树干，腰腹发力，竟将杨柳树连根拔起，泥土飞溅。",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "101.07s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "b3c6a6c7-ab07-46be-b72f-51cb2c4f5d2f",
+    "start_time": "2025-08-19 22:22:38",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇 \n分镜2:鲁智深见众泼皮躲避，得意忘形，摇晃到杨柳树下，拍胸比划，惹来泼皮们的嘲笑。",
+    "status": "文生视频",
+    "video_url": "/videos/c94490a9-81d0-4ad4-9427-92658ba7c0c1.mp4",
+    "image_url": null,
+    "duration": "79.42s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "7cf50ada-5096-452c-a1b0-9b6fc7938438",
+    "start_time": "2025-08-19 22:20:20",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇 \n分镜2:鲁智深见众泼皮躲避，得意忘形，摇晃到杨柳树下，拍胸比划，惹来泼皮们的嘲笑。",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "78.62s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "11f8bc81-a92f-4f9e-adaf-86779f773581",
+    "start_time": "2025-08-19 22:17:24",
+    "prompt": "剧本来着中国名著《水浒传》，选取故事为：鲁智深倒拔垂杨柳，展现其豪放不羁和嫉恶如仇\n分镜1:阳光如金粉洒落，鲁智深敞开衣襟，醉态可掬地晃入视野，众泼皮如惊弓之鸟般四处逃窜",
+    "status": "文生视频",
+    "video_url": "/videos/cc7313f5-12b9-4d24-ac4f-a670c136bb7f.mp4",
+    "image_url": null,
+    "duration": "81.61s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "4d889709-e1ca-4663-bd41-74c4b5a12435",
+    "start_time": "2025-08-19 02:42:08",
+    "prompt": "In a warm-toned bedroom scene, a long-haired woman stands by a bed, then sits on its edge, leaning back slightly, gazing at me seductively. Her left hand rests on the bed, and her right hand reaches toward the camera, gesturing me toward it with a hooked index finger. She wears a figure-hugging burgundy wrap dress with a plunging V-neckline, a high slit, and delicate pleats at the waist. The fabric is soft and subtly shimmering, and her figure is defined by the sidelight. A wooden bed frame and white bedding frame the background. A floor-to-ceiling window on the right and translucent white curtains bring in abundant daylight, creating a soft halo and rim light. The shot is a medium-close-up, with the subject dominating the frame. A shallow depth of field blurs the background, and the close-up view, slightly below eye level, emphasizes the curves of her clothing and torso. The overall tone is warm, intimate, and tranquil, embodying a homely, stylish portrait.",
+    "status": "文生视频",
+    "video_url": "/videos/883c7d13-750b-41b5-9d26-37998d836230.mp4",
+    "image_url": null,
+    "duration": "79.26s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "643ae631-fce9-45af-80c8-38c105c445f7",
+    "start_time": "2025-08-19 01:50:28",
+    "prompt": "A handsome man in a wingsuit in a rapid freefall and open his parachute instantly then keep falling, full-body shot, tracking shot, cinematic, photo-realistic, hyper-realistic, motion blur on the background. audio Prompt:",
+    "status": "文生视频",
+    "video_url": "/videos/56ff84b6-cb99-4b86-b841-6ba94a1831d5.mp4",
+    "image_url": null,
+    "duration": "79.40s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "89c24d1e-2232-4d8c-af44-40086a702e2d",
+    "start_time": "2025-08-19 01:41:49",
+    "prompt": "A handsome man in a wingsuit in a rapid freefall and open his parachute instantly, full-body shot, tracking shot, cinematic, photo-realistic, hyper-realistic, motion blur on the background. audio Prompt:",
+    "status": "生成中",
+    "video_url": null,
+    "image_url": null,
+    "duration": null,
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "6fc2c603-2b4d-4a2b-8c2d-a0fc9822f6b0",
+    "start_time": "2025-08-17 07:55:46",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "图生视频",
+    "video_url": "/videos/c17ec054-8b94-4c9b-a32c-8e6054aca6c4.mp4",
+    "image_url": "/images/c2d13b40-2376-4ae3-9521-80b379e98c1c.png",
+    "duration": "169.57s",
+    "mode": "图生视频"
+  },
+  {
+    "task_id": "3307d8f5-9df8-40e0-a0bd-bd3923aafaa2",
+    "start_time": "2025-08-17 02:45:50",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "12.57s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "d82de835-a143-432c-8924-cf36d555013a",
+    "start_time": "2025-08-17 02:45:07",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": "/images/71979d65-df10-49a6-9d4a-92cc89856df6.png",
+    "duration": "10.77s",
+    "mode": "图生视频"
+  },
+  {
+    "task_id": "6dd995ab-95c5-4191-9598-08a7ff063154",
+    "start_time": "2025-08-17 02:36:21",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "10.53s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "80d2cacc-6b2d-48e8-9b70-383f0f0d56a4",
+    "start_time": "2025-08-17 01:14:15",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "10.58s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "a621430f-dfbd-4853-ab96-390a0bac57db",
+    "start_time": "2025-08-17 00:53:45",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "10.60s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "c6e900d6-f7e2-4dc9-87aa-0c1e66ed9930",
+    "start_time": "2025-08-17 00:06:34",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "10.58s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "e6b6e0b6-ddd8-4e2e-83ac-223ddf47ee33",
+    "start_time": "2025-08-16 23:29:48",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "10.62s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "0d084f96-3540-49e6-820c-ec9a56b804c6",
+    "start_time": "2025-08-16 23:08:45",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "10.57s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "a922f4a4-f631-4844-84ae-44a691820e64",
+    "start_time": "2025-08-16 22:48:53",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "文生视频",
+    "video_url": "/videos/4278902a-307b-4652-996d-dceed067bb29.mp4",
+    "image_url": null,
+    "duration": "56.72s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "730cd92e-371e-4873-b9d6-8b5c5c3c44bd",
+    "start_time": "2025-08-16 14:17:19",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成中",
+    "video_url": null,
+    "image_url": null,
+    "duration": null,
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "49673bfd-1805-45d0-ab30-57045fa61518",
+    "start_time": "2025-08-16 14:09:20",
+    "prompt": "1 girl, in the new york time squre, bustling crowds, luminous digital, blurred background lights, soft focus, hyper-saturated neon lights, night scene, wide-angle lens, tracking shot",
+    "status": "生成中",
+    "video_url": null,
+    "image_url": null,
+    "duration": null,
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "b37916c3-15c7-41d9-9991-9f8a4cb1bd24",
+    "start_time": "2025-08-16 13:51:59",
+    "prompt": "A handsome man in a wingsuit in a rapid freefall, full-body shot, tracking shot, cinematic, photo-realistic, hyper-realistic, motion blur on the background. audioPrompt: \"a male scream, intense wind sounds\". negativePrompt: \"cartoon, drawing, low quality, static, parachute\".",
+    "status": "文生视频",
+    "video_url": "/videos/750aa7fe-4fe5-4eda-86ab-3dd2a629cb40.mp4",
+    "image_url": null,
+    "duration": "79.36s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "1623de22-2087-46d0-b648-f346fc708e43",
+    "start_time": "2025-08-16 13:39:54",
+    "prompt": "A handsome man in a high-tech wingsuit jumping off a snowy mountain cliff, in a high-angle shot, cinematic, photo-realistic, hyper-realistic, wide-angle lens, deep depth of field, overcast lighting, cold atmosphere. audioPrompt: \"whooshing wind sound, cold atmosphere\". negativePrompt: \"cartoon, drawing, low quality, static\".",
+    "status": "文生视频",
+    "video_url": "/videos/f94f833b-ac0b-4421-88f8-bd7d3d932188.mp4",
+    "image_url": null,
+    "duration": "79.28s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "4be38f81-fb5d-472e-a24c-571abf3ae20d",
+    "start_time": "2025-08-16 13:26:44",
+    "prompt": "A handsome man in a high-tech wingsuit jumping off a snowy mountain cliff, in a high-angle shot, cinematic, photo-realistic, hyper-realistic, wide-angle lens, deep depth of field, overcast lighting, cold atmosphere. audioPrompt: ",
+    "status": "文生视频",
+    "video_url": "/videos/e46ff769-3f1f-45f6-bd78-d74e45b9ae11.mp4",
+    "image_url": null,
+    "duration": "81.22s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "908b6aa9-c03f-4dd5-a369-831b19ac2225",
+    "start_time": "2025-08-16 10:29:26",
+    "prompt": "A handsome man in a high-tech wingsuit jumping off a snowy mountain cliff, in a high-angle shot, cinematic, photo-realistic, hyper-realistic, wide-angle lens, deep depth of field, overcast lighting, cold atmosphere. audioPrompt: \"whooshing wind sound, cold atmosphere\". negativePrompt: \"cartoon, drawing, low quality, static\".",
+    "status": "图生视频",
+    "video_url": "/videos/25d5f327-1ddb-476e-a478-2f2ce6a59511.mp4",
+    "image_url": "/api/images/d8e362fe-6d16-45c7-9349-744a328ba233.png",
+    "duration": "79.30s",
+    "mode": "图生视频"
+  },
+  {
+    "task_id": "e8107b95-c883-4f79-908f-fc16fd2b0c93",
+    "start_time": "2025-08-16 09:45:51",
+    "prompt": "一个电影特写镜头跟随着一位身着时尚绿色风衣、神情张扬的女，她正在拨打安装在粗糙砖墙上的转盘式电话，周围笼罩着绿色霓虹灯的绚丽光芒。镜头缓缓推进，显示出她下巴的精致感，以及她努力拨打电话时脸上刻着的高冷。浅景深效果将焦点对准了她精美的妆容和黑色的拨号电话，模糊了背景，使其变成一片霓虹色彩和模糊的阴影，营造出一种温馨感和唯美感",
+    "status": "文生视频",
+    "video_url": "/videos/7ac3a3fd-ef3a-4c68-9a97-e0657d86bbd1.mp4",
+    "image_url": null,
+    "duration": "394.33s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "46497325-5132-47a8-a1db-1018734d380f",
+    "start_time": "2025-08-16 09:29:01",
+    "prompt": "一个电影特写镜头跟随着一位身着时尚绿色风衣、神情张扬的女，她正在拨打安装在粗糙砖墙上的转盘式电话，周围笼罩着绿色霓虹灯的绚丽光芒。镜头缓缓推进，显示出她下巴的精致感，以及她努力拨打电话时脸上刻着的高冷。浅景深效果将焦点对准了她精美的妆容和黑色的拨号电话，模糊了背景，使其变成一片霓虹色彩和模糊的阴影，营造出一种温馨感和唯美感",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "79.11s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "79c695e5-a451-4c93-b317-7f85752cae65",
+    "start_time": "2025-08-16 09:13:37",
+    "prompt": "一个电影特写镜头跟随着一位身着时尚绿色风衣、神情张扬的女，她正在拨打安装在粗糙砖墙上的转盘式电话，周围笼罩着绿色霓虹灯的绚丽光芒。镜头缓缓推进，显示出她下巴的精致感，以及她努力拨打电话时脸上刻着的高冷。浅景深效果将焦点对准了她精美的妆容和黑色的拨号电话，模糊了背景，使其变成一片霓虹色彩和模糊的阴影，营造出一种温馨感和唯美感",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "78.42s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "4df100ea-3689-40f8-8d27-0104b872d305",
+    "start_time": "2025-08-16 09:11:18",
+    "prompt": "一个电影特写镜头跟随着一位身着时尚绿色风衣、神情张扬的女，她正在拨打安装在粗糙砖墙上的转盘式电话，周围笼罩着绿色霓虹灯的绚丽光芒。镜头缓缓推进，显示出她下巴的精致感，以及她努力拨打电话时脸上刻着的高冷。浅景深效果将焦点对准了她精美的妆容和黑色的拨号电话，模糊了背景，使其变成一片霓虹色彩和模糊的阴影，营造出一种温馨感和唯美感",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "0.00s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "40b6c188-c929-4611-8e2e-bec1846da0c6",
+    "start_time": "2025-08-16 08:51:39",
+    "prompt": "一个电影特写镜头跟随着一位身着时尚绿色风衣、神情张扬的女，她正在拨打安装在粗糙砖墙上的转盘式电话，周围笼罩着绿色霓虹灯的绚丽光芒。镜头缓缓推进，显示出她下巴的精致感，以及她努力拨打电话时脸上刻着的高冷。浅景深效果将焦点对准了她精美的妆容和黑色的拨号电话，模糊了背景，使其变成一片霓虹色彩和模糊的阴影，营造出一种温馨感和唯美感",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "0.00s",
+    "mode": "文生视频"
+  },
+  {
+    "task_id": "f7e06486-2b9d-4107-9854-f653ce0f77e5",
+    "start_time": "2025-08-16 08:44:03",
+    "prompt": "一个电影特写镜头跟随着一位身着时尚绿色风衣、神情张扬的女，她正在拨打安装在粗糙砖墙上的转盘式电话，周围笼罩着绿色霓虹灯的绚丽光芒。镜头缓缓推进，显示出她下巴的精致感，以及她努力拨打电话时脸上刻着的高冷。浅景深效果将焦点对准了她精美的妆容和黑色的拨号电话，模糊了背景，使其变成一片霓虹色彩和模糊的阴影，营造出一种温馨感和唯美感",
+    "status": "生成失败",
+    "video_url": null,
+    "image_url": null,
+    "duration": "0.00s",
+    "mode": "文生视频"
+  }
+]
