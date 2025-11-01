@@ -1,6 +1,7 @@
 <div align="center">
-  <p1>AIVeo3 MVP demo</p1>
-  <img src="https://github.com/katfionn/AIveo3/blob/main/AIveo3_Logo.png?raw=true" alt="LOGO" width="500">
+  <h1>AIVeo3 MVP demo</h1>
+  <br>
+  <img src="https://github.com/katfionn/AIveo3/blob/main/AIveo3_Logo.png?raw=true" alt="LOGO" width="300">
 </div>
 
 
