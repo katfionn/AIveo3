@@ -1,6 +1,7 @@
 <div align="center">
-  <h1>AIVeo3 MVP demo</h1>
-  <br>
+  <h1>AIVeo3 MVP 演示</h1>
+  <a href="https://github.com/katfionn/AIveo3/blob/main/Readme_chs.md" style="font-size:24px;">English version</a>
+  <br><br>
   <img src="https://github.com/katfionn/AIveo3/blob/main/AIveo3_Logo.png?raw=true" alt="LOGO" width="300">
 </div>
 
