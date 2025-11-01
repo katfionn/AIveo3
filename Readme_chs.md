@@ -68,7 +68,7 @@ server {
     }
     # 后端API反向代理
     location /api/ {
-        proxy_pass http://103.79.76.195:5000/; 
+        proxy_pass http://换成你的IP或域名:5000/; 
         proxy_set_header Host $host; 
         proxy_set_header X-Real-IP $remote_addr; 
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; 
