@@ -44,8 +44,8 @@ pip install -r requirements.txt
 ## 第六步
 确保你的 Linux 或服务器已经打开并监听 5000 端口（你可以在 `app.py` 文件中更改端口）
 
-## 第七步
-保持“第五步”命令行处于运行状态，然后部署前端。我用的是 openresty（nginx 的一个子版本），关键是写一个反向代理到你的后端（即“第五步”中说的 `app.py`）。下面是我在 openresty 下的完整配置（包括反代），我用 1panel 部署（强烈推荐）。你需要把这些配置替换成你自己的：`server_name`，`access_log`，`error_log`，`  location /api/`，`proxy_pass`，`root`，`ssl_trusted_certificate`。
+## 第七步  
+保持“第五步”中的命令行程序运行，然后部署前端。我使用的是 openresty（Nginx 的一个子版本），关键是要写一个反向代理，把请求转发到你的后端（也就是“第五步”中提到的 app.py）。下面是我在 openresty 下的完整配置（包含反向代理部分），我是用 1panel 部署的（强烈推荐）。你需要将这些配置替换为你自己的：`server_name`、`access_log`、`error_log`、`location /api/`、`proxy_pass`、`root`、`ssl_trusted_certificate`。
 ```nginx
 server {
     listen 80 ; 
