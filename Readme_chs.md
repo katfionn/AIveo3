@@ -74,7 +74,7 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; 
         proxy_set_header X-Forwarded-Proto $scheme; 
     }
-    add_header 'Access-Control-Allow-Origin' 'http://103.79.76.195:5000' always; 
+    add_header 'Access-Control-Allow-Origin' 'http://换成你的IP或域名:5000' always; 
     add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS'; 
     root /www/sites/veo3/index; 
     ssl_trusted_certificate /www/sites/veo3/ssl/fullchain.pem; 
