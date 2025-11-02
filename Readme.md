@@ -7,7 +7,7 @@
 
 
 # Introduction
-This is a simple MVP demo about connecting orginal API from google from worldwide but still follow it's policy
+This is a simple MVP demo about connecting orginal API from google from worldwide but still follow it's policy. If you want to try to generate videos with Google Veo3, this project should be your best practice to start.
 > It's...the best i can tell...u need to try the details about it and...keep your mouth shut...don't brag
 
 For this version(there will be no futher update😛😜😝), it can do:
