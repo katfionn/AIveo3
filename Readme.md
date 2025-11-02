@@ -88,7 +88,7 @@ My site is not support HTTPs, so you need to figure it your own if you want.
 Start the site, see if it works. My package has few test and demo history file, if their shows up, then try to generate a video. After you generate a video, you should know this project runs successful. Then you can goto next step, otherwise...copy the oder id(they looks like this `0d084f96-3540-49e6-820c-ec9a56b804c6`) and check the log in the backend's dir `/log`, you will finout what happends.
 
 ## Nineth
-Kill the command line process we build in the step "Fifth". Alternate the system service in the `system service` folder, you need to change these to your real configs: `WorkingDirectory`, `ExecStart`
+Kill the command line process we build in the step "Fifth". Alternate the system service in the `system service` folder, you need to change these to your real configs: `WorkingDirectory`, `ExecStart`. Then put the file to this directory `/etc/systemd/system/` (my system is Debian, so it goes here, u may need to google your own OS about it).
 
 ## Tenth
 Run commands below one by one:
