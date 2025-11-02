@@ -45,7 +45,7 @@ Run the app.py in the command line，if it goes well, then goto next step. If it
 Make sure your Linux or your server is opened and listening on port 5000(you can change it in `app.py` file)
 
 ## Seventh
-Keep the command line in step "Fifth" running, then deploy the frontend. I use the openresty(some sub version of Nginx), the key is to build the write a reverse proxy to your backend(which means the app.py we talk in step "Fifth"). Here is my whole config in the openresty(include the reverse proxy), and i deploy it with 1panel(highly recommand). You will need to replace these config wo your own :`server_name`, `access_log`, `error_log`, `  location /api/`, `proxy_pass`, `root`, `ssl_trusted_certificate`.
+Keep the command line in step "Fifth" running, then deploy the frontend. I use the openresty(some sub version of Nginx), the key is to write a reverse proxy to your backend(which means the app.py we talk in step "Fifth"). Here is my whole config in the openresty(include the reverse proxy), and i deploy it with 1panel(highly recommand). You will need to replace these config wo your own :`server_name`, `access_log`, `error_log`, `  location /api/`, `proxy_pass`, `root`, `ssl_trusted_certificate`.
 ```nginx
 server {
     listen 80 ; 
