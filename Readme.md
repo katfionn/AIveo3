@@ -84,7 +84,7 @@ server {
 
 My site is not support HTTPs, so you need to figure it your own if you want.
 
-##Eighth
+## Eighth
 Start the site, see if it works. My package has few test and demo history file, if their shows up, then try to generate a video. After you generate a video, you should know this project runs successful. Then you can goto next step, otherwise...copy the oder id(they looks like this `0d084f96-3540-49e6-820c-ec9a56b804c6`) and check the log in the backend's dir `/log`, you will finout what happends.
 
 ## Ninth
